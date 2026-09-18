@@ -60,8 +60,8 @@ from payment_api import verify_payment
 # الإعدادات الأساسية
 # ============================
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8681125871:AAEmqFKLJq8ZPuT_2HnXfsDWUBBKXDxmcRQ")
-ADMIN_IDS = [1062895844]  # ← حط IDs الأدمنية هون
-#6756808076
+ADMIN_IDS = [6756808076]  # ← حط IDs الأدمنية هون
+#
 # دالة مساعدة لإرسال رسالة لجميع الأدمنية
 async def notify_admins(bot, text, reply_markup=None):
     for admin_id in ADMIN_IDS:
